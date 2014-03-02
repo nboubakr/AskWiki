@@ -10,7 +10,7 @@ Import the package to your project:
 import AskWiki
 
 # Instantiate a new object and ask it
-obj = Askwiki('en')  # Add wikipedia language as param or leave it for english
+obj = AskWiki('en')  # Add wikipedia language as param or leave it for english
 print obj.ask('API') # To ask wikipedia for an article
 ```
 
